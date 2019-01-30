@@ -1,0 +1,33 @@
+.header{
+  background: #fff;
+  position: fixed;
+  z-index: 200;
+  top:0;
+  left: 0;
+  height: 60rpx;
+  overflow-y: hidden;
+}
+.header .cont{
+  white-space: nowrap;
+  position: relative;
+  height: 90rpx;
+  overflow:auto;
+  width:750rpx;
+
+}
+.header .cont .list view{
+ width: 120rpx;
+ display: inline-block;
+ text-align: center;
+font-size: 30rpx;
+}
+.cur{
+  position: absolute;
+  left: 0;
+  bottom: 30rpx;
+  width: 70rpx;
+  height: 6rpx;
+  background: yellow;
+  margin-left: 25rpx;
+  transition: .5s all ease;
+}

@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "小程序fixed-scroll-view失效",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  }
+
+}

@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="header">
+          <scroll-view class="scroll-view_H" scroll-x="{{true}}">
+            <view class="cont">
+                <view class="list">
+                      <view class="green" wx:for="{{tags}}" wx:key="{{index}}" bindtap='fnclick'>{{item}}</view>
+                  </view>
+                <view class="cur" style='left:{{left}}px'></view>
+            </view>
+          </scroll-view>
+ </view>
+
