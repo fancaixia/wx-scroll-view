@@ -7,13 +7,13 @@
 
 ##### 解决办法：
 
-1. scroll-view组件内元素cont加滚动属性overflow：auto
+1. scroll-view宽度为屏幕宽度，
 
-2. 将高度加高30rpx;(30rpx为滚动条的高度)
+2. 子元素view.cont设置overflow:auto;内容超出屏幕会出滚动条，然后便可以拖动了，
 
-3. 将scroll-view组件外header设置为60rpx;将滚动条隐藏
+3. 最外层header设置overflow-y: hidden;隐藏滚动条，实现了模拟scroll-view的效果
 
-4. 点击view.green时  设置元素cur 为当前点击view的offsetLeft
+4. 点击view.green时 设置元素cur为当前点击view的offsetLeft
 
 ##### 示例代码
 
